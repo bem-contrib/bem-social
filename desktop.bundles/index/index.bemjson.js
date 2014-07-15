@@ -17,7 +17,7 @@
                 description : 'Описание',
                 image : '/sdf/'
             },
-            content : 'vkontakte'
+            text : 'vkontakte'
         }
     ]
 })
