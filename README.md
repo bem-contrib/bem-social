@@ -10,6 +10,7 @@
 + Vkontakte
 + Facebook
 + Twitter
++ Odnoklassniki
 
 
 ## В планах
