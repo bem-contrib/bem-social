@@ -1,6 +1,7 @@
 # bem-social
 
-Социальные виджеты для проектов иcпользующих бэм-стек технологий
+Социальные виджеты для проектов иcпользующих бэм-стек технологий. 
+[Анотация](http://clubs.ya.ru/bem/replies.xml?item_no=5634)
 
 ## Сейчас есть
 
@@ -14,5 +15,8 @@
 ## В планах
 
 + Share Counter
-+ Widgets
++ Like
++ Follow
 + Open Graph для блока page ([bem-core](http://github.com/bem/bem-core))
++ Twit...
++ Widgets [Comments, News, ...]
