@@ -15,3 +15,4 @@
 
 + Share Counter
 + Widgets
++ Open Graph для блока page ([bem-core](http://github.com/bem/bem-core))
