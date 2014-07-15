@@ -1,0 +1,13 @@
+block('share').mod('api', 'facebook')(
+    attrs()(function() {
+        var params = this.ctx.js,
+            uri = 'http://www.facebook.com/sharer.php?s=100';
+
+        params.url          && (uri += '&p[url]=' + encodeURIComponent(params.url));
+        params.title        && (uri += '&p[title]=' + encodeURIComponent(params.title));
+        params.description  && (uri += '&p[summary]=' + encodeURIComponent(params.description));
+        params.image        && (uri += '&p[images][0]=' + encodeURIComponent(params.image));
+
+        return this.extend(applyNext(), { href : uri });
+    })
+);

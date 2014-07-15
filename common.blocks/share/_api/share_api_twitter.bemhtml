@@ -1,0 +1,12 @@
+block('share').mod('api', 'twitter')(
+    attrs()(function() {
+        var params = this.ctx.js,
+            uri = 'http://twitter.com/share?';
+
+        params.title        && (uri += 'text=' + encodeURIComponent(params.title));
+        params.url          && (uri += '&url=' + encodeURIComponent(params.url));
+        params.url          && (uri += '&counturl=' + encodeURIComponent(params.url));
+
+        return this.extend(applyNext(), { href : uri });
+    })
+);
