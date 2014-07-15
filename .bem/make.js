@@ -39,6 +39,7 @@ MAKE.decl('BundleNode', {
             desktop : [
                 'libs/bem-core/common.blocks',
                 'libs/bem-core/desktop.blocks',
+                'design/common.blocks',
                 'common.blocks',
                 'desktop.blocks'
             ]

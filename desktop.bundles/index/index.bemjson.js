@@ -14,7 +14,7 @@
     content : [
         {
             block : 'share',
-            mods : { api : 'vkontakte' },
+            mods : { api : 'vkontakte', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
                 title : 'Привет мир',
@@ -25,7 +25,7 @@
         },
         {
             block : 'share',
-            mods : { api : 'facebook' },
+            mods : { api : 'facebook', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
                 title : 'Привет мир',
@@ -36,7 +36,7 @@
         },
         {
             block : 'share',
-            mods : { api : 'twitter' },
+            mods : { api : 'twitter', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
                 title : 'Привет мир',
@@ -47,7 +47,7 @@
         },
         {
             block : 'share',
-            mods : { api : 'odnoklassniki' },
+            mods : { api : 'odnoklassniki', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
                 title : 'Привет мир',
