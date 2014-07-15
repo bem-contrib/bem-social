@@ -10,5 +10,5 @@
   ],
   "dependencies": {
     "bem-core": "git://github.com/bem/bem-core.git#v2.3.0"
-  },
+  }
 }
