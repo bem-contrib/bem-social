@@ -12,10 +12,10 @@
             block : 'share',
             mods : { api : 'vkontakte' },
             js : {
-                url : 'http://factory.mn',
+                url : 'https://github.com/voischev/bem-social',
                 title : 'Привет мир',
-                description : 'Описание',
-                image : '/sdf/'
+                description : 'Share Bem-Social',
+                image : 'https://avatars1.githubusercontent.com/u/1510217'
             },
             text : 'vkontakte'
         }
