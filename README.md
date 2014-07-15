@@ -18,5 +18,6 @@
 + Like
 + Follow
 + Open Graph для блока page ([bem-core](http://github.com/bem/bem-core))
-+ Twit...
++ Авторизации
 + Widgets [Comments, News, ...]
++ GitHub и другие.
