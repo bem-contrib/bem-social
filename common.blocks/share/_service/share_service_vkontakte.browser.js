@@ -2,7 +2,7 @@
 
 modules.define('share', function(provide, Share) {
 
-provide(Share.decl({ modName : 'api', modVal : 'vkontakte' }, {
+provide(Share.decl({ modName : 'service', modVal : 'vkontakte' }, {
     onSetMod : {
         'js' : {
             'inited' : function() {

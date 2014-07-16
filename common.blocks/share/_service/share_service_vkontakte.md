@@ -2,7 +2,7 @@
 ```js
 {
     block : 'share',
-    mods : { api : 'vkontakte' },
+    mods : { service : 'vkontakte' },
     js : {
         url : 'http://factory.mn', // Обязательно
         title : 'Привет мир',

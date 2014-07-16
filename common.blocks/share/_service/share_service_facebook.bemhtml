@@ -1,4 +1,4 @@
-block('share').mod('api', 'facebook')(
+block('share').mod('service', 'facebook')(
     attrs()(function() {
         var params = this.ctx.js,
             uri = 'http://www.facebook.com/sharer.php?s=100';

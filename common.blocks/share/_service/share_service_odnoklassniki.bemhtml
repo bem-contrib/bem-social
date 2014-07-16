@@ -1,4 +1,4 @@
-block('share').mod('api', 'odnoklassniki')(
+block('share').mod('service', 'odnoklassniki')(
     attrs()(function() {
         var params = this.ctx.js,
             uri = 'http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1';

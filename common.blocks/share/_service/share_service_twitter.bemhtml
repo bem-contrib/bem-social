@@ -1,4 +1,4 @@
-block('share').mod('api', 'twitter')(
+block('share').mod('service', 'twitter')(
     attrs()(function() {
         var params = this.ctx.js,
             uri = 'http://twitter.com/share?';

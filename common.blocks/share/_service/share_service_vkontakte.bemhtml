@@ -1,4 +1,4 @@
-block('share').mod('api', 'vkontakte')(
+block('share').mod('service', 'vkontakte')(
     attrs()(function() {
         var params = this.ctx.js,
             uri = 'http://vkontakte.ru/share.php?';
