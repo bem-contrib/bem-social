@@ -11,6 +11,7 @@
 + Facebook
 + Twitter
 + Odnoklassniki
++ Blogger
 
 
 ## В планах
