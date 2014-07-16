@@ -55,6 +55,17 @@
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
             },
             text : 'odnoklassniki'
+        },
+        {
+            block : 'share',
+            mods : { api : 'blogger', theme : 'simple', size : 'm' },
+            js : {
+                url : 'https://github.com/voischev/bem-social',
+                title : 'Привет мир',
+                description : 'Share Bem-Social',
+                image : 'https://avatars1.githubusercontent.com/u/1510217'
+            },
+            text : 'blogger'
         }
     ]
 })
