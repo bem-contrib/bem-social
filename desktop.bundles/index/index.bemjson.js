@@ -4,14 +4,27 @@
     head : [
         { elem : 'meta', attrs : { name : 'description', content : '' } },
         { elem : 'meta', attrs : { name : 'viewport', content : 'width=device-width, initial-scale=1' } },
-        { elem : 'css', url : '_index.css' },
-        {
-            elem : 'css',
-            content : '.share + .share{margin-left:10px}'
-        }
+        { elem : 'css', url : '_index.css' }
     ],
     scripts : [{ elem : 'js', url : '_index.js' }],
     content : [
+        {   // tmp block TODO refactor
+            block : 'link',
+            mods : { github : 'ribbon' },
+            url : 'https://github.com/voischev/bem-social',
+            content : 'Fork me on GitHub'
+        },
+        {
+            elem : 'title',
+            tag : 'h1',
+            content : [
+                {
+                    block : 'link',
+                    url : 'https://github.com/voischev/bem-social',
+                    content : 'BEM Social Components Library'
+                }
+            ]
+        },
         {
             block : 'share',
             mods : { service : 'vkontakte', theme : 'simple', size : 'm' },
