@@ -1,14 +1,11 @@
 language: node_js
-
 node_js:
-  - 0.10
-
+- '0.10'
 branches:
   only:
   - master
-
 after_success: ./utils/update-gh-pages.sh
-
 env:
   global:
-    secure: ***
+  - GH_REF: github.com/voischev/bem-social.git
+  - secure: GR67HlGjAXHyy6HGYJHwX8CIG6G0wHr+gQtO2sK+5raK0deJN+0wXACiXiIQ+x5bTHBfnKHAsZmt0yr7s4gvKU0D3D3zwUXzJlSCFtVFrL7mKjRzZM/uKJ4lqpCUqpyx3nzc7ohELh5F3iCJgcygJ72yrzoVWCouksEipGVIRUg=
