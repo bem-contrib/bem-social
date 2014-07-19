@@ -3,7 +3,7 @@
 Социальные виджеты для проектов иcпользующих бэм-стек технологий. 
 [Анотация](http://clubs.ya.ru/bem/replies.xml?item_no=5634)
 
-## Сейчас есть
+## Сейчас есть ([DEMO](http://voischev.github.io/bem-social/))
 
 ### Share
 
