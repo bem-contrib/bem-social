@@ -1,4 +1,4 @@
-# bem-social
+# BEM Social Components Library [![Build Status](https://travis-ci.org/voischev/bem-social.svg?branch=master)](https://travis-ci.org/voischev/bem-social)
 
 Социальные виджеты для проектов иcпользующих бэм-стек технологий. 
 [Анотация](http://clubs.ya.ru/bem/replies.xml?item_no=5634)
