@@ -1,6 +1,6 @@
 ({
     block : 'page',
-    title : 'index',
+    title : 'BEM Social Page',
     head : [
         { elem : 'meta', attrs : { name : 'description', content : '' } },
         { elem : 'meta', attrs : { name : 'viewport', content : 'width=device-width, initial-scale=1' } },
@@ -29,7 +29,7 @@
             block : 'share',
             mods : { service : 'vkontakte', theme : 'simple', size : 'm' },
             js : {
-                url : 'https://github.com/voischev/bem-social',
+                url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
@@ -40,7 +40,7 @@
             block : 'share',
             mods : { service : 'facebook', theme : 'simple', size : 'm' },
             js : {
-                url : 'https://github.com/voischev/bem-social',
+                url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
@@ -51,7 +51,7 @@
             block : 'share',
             mods : { service : 'twitter', theme : 'simple', size : 'm' },
             js : {
-                url : 'https://github.com/voischev/bem-social',
+                url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
@@ -62,7 +62,7 @@
             block : 'share',
             mods : { service : 'odnoklassniki', theme : 'simple', size : 'm' },
             js : {
-                url : 'https://github.com/voischev/bem-social',
+                url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
@@ -73,7 +73,7 @@
             block : 'share',
             mods : { service : 'blogger', theme : 'simple', size : 'm' },
             js : {
-                url : 'https://github.com/voischev/bem-social',
+                url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
