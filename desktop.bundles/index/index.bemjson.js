@@ -30,8 +30,8 @@
             mods : { service : 'vkontakte', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
-                title : 'Привет мир',
-                description : 'Share Bem-Social',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
             },
             text : 'vkontakte'
@@ -41,8 +41,8 @@
             mods : { service : 'facebook', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
-                title : 'Привет мир',
-                description : 'Share Bem-Social',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
             },
             text : 'facebook'
@@ -52,8 +52,8 @@
             mods : { service : 'twitter', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
-                title : 'Привет мир',
-                description : 'Share Bem-Social',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
             },
             text : 'twitter'
@@ -63,8 +63,8 @@
             mods : { service : 'odnoklassniki', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
-                title : 'Привет мир',
-                description : 'Share Bem-Social',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
             },
             text : 'odnoklassniki'
@@ -74,8 +74,8 @@
             mods : { service : 'blogger', theme : 'simple', size : 'm' },
             js : {
                 url : 'https://github.com/voischev/bem-social',
-                title : 'Привет мир',
-                description : 'Share Bem-Social',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
             },
             text : 'blogger'
