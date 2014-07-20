@@ -32,7 +32,7 @@
                 url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
-                image : 'https://avatars1.githubusercontent.com/u/1510217'
+                image : 'blocks/page/image/bem.png'
             },
             text : 'vkontakte'
         },
@@ -43,7 +43,7 @@
                 url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
-                image : 'https://avatars1.githubusercontent.com/u/1510217'
+                image : 'blocks/page/image/bem.png'
             },
             text : 'facebook'
         },
@@ -54,7 +54,7 @@
                 url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library #b_',
                 description : 'Fork me on GitHub',
-                image : 'https://avatars1.githubusercontent.com/u/1510217'
+                image : 'blocks/page/image/bem.png'
             },
             text : 'twitter'
         },
@@ -65,7 +65,7 @@
                 url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
-                image : 'https://avatars1.githubusercontent.com/u/1510217'
+                image : 'blocks/page/image/bem.png'
             },
             text : 'odnoklassniki'
         },
@@ -76,7 +76,7 @@
                 url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library',
                 description : 'Fork me on GitHub',
-                image : 'https://avatars1.githubusercontent.com/u/1510217'
+                image : 'blocks/page/image/bem.png'
             },
             text : 'blogger'
         }
