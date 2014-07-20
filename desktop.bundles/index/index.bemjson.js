@@ -52,7 +52,7 @@
             mods : { service : 'twitter', theme : 'simple', size : 'm' },
             js : {
                 url : 'http://voischev.github.io/bem-social/',
-                title : 'BEM Social Components Library',
+                title : 'BEM Social Components Library #b_',
                 description : 'Fork me on GitHub',
                 image : 'https://avatars1.githubusercontent.com/u/1510217'
             },
