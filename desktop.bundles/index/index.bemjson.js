@@ -55,9 +55,7 @@
             js : {
                 url : 'http://voischev.github.io/bem-social/',
                 title : 'BEM Social Components Library #b_',
-                description : 'Fork me on GitHub',
-                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+                description : 'Fork me on GitHub'
             },
             text : 'twitter'
         },
@@ -72,6 +70,14 @@
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
             text : 'odnoklassniki'
+        },
+        {
+            block : 'share',
+            mods : { service : 'google', theme : 'simple', size : 'm' },
+            js : {
+                url : 'http://voischev.github.io/bem-social/'
+            },
+            text : 'google+'
         },
         {
             block : 'share',
