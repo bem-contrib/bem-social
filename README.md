@@ -11,6 +11,7 @@
 + Facebook
 + Twitter
 + Odnoklassniki
++ Google+
 + Blogger
 
 
