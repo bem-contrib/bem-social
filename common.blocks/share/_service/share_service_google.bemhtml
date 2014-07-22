@@ -1,0 +1,10 @@
+block('share').mod('service', 'google')(
+    attrs()(function() {
+        var params = this.ctx.js,
+            uri = 'https://plus.google.com/share?';
+
+        params.url && (uri += 'url=' + encodeURIComponent(params.url));
+
+        return this.extend(applyNext(), { href : uri });
+    })
+);
