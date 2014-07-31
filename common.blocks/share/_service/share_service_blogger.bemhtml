@@ -1,7 +1,7 @@
 block('share').mod('service', 'blogger')(
     attrs()(function() {
         var params = this.ctx.js,
-            uri = 'http://www.blogger.com/blog_this.pyra?';
+            uri = 'https://www.blogger.com/blog_this.pyra?';
 
         params.url          && (uri += '&u=' + encodeURIComponent(params.url));
         params.title        && (uri += '&n=' + encodeURIComponent(params.title));
