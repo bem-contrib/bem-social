@@ -8,7 +8,6 @@ module.exports = {
         immed : true,
         loopfunc : true,
         maxdepth : 4,
-        maxlen : 120,
         noarg : true,
         noempty : true,
         onecase : true,

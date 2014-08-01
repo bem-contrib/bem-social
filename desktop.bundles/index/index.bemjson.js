@@ -65,18 +65,6 @@
         },
         {
             block : 'share',
-            mods : { service : 'odnoklassniki', theme : 'simple', size : 'm' },
-            js : {
-                url : 'http://voischev.github.io/bem-social/',
-                title : 'BEM Social Components Library',
-                description : 'Fork me on GitHub',
-                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                        'master/desktop.bundles/index/blocks/page/image/bem.png'
-            },
-            text : 'odnoklassniki'
-        },
-        {
-            block : 'share',
             mods : { service : 'google', theme : 'simple', size : 'm' },
             js : {
                 url : 'http://voischev.github.io/bem-social/'
@@ -109,7 +97,8 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'vkontakte'
+            text : 'vkontakte',
+            icon : { block : 'icon', mods : { service : 'vkontakte' } }
         },
         {
             block : 'share',
@@ -121,7 +110,8 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'facebook'
+            text : 'facebook',
+            icon : { block : 'icon', mods : { service : 'facebook' } }
         },
         {
             block : 'share',
@@ -131,19 +121,8 @@
                 title : 'BEM Social Components Library #b_',
                 description : 'Fork me on GitHub'
             },
-            text : 'twitter'
-        },
-        {
-            block : 'share',
-            mods : { service : 'odnoklassniki', theme : 'normal', size : 'm' },
-            js : {
-                url : 'http://voischev.github.io/bem-social/',
-                title : 'BEM Social Components Library',
-                description : 'Fork me on GitHub',
-                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                        'master/desktop.bundles/index/blocks/page/image/bem.png'
-            },
-            text : 'odnoklassniki'
+            text : 'twitter',
+            icon : { block : 'icon', mods : { service : 'twitter' } }
         },
         {
             block : 'share',
@@ -151,7 +130,8 @@
             js : {
                 url : 'http://voischev.github.io/bem-social/'
             },
-            text : 'google+'
+            text : 'google+',
+            icon : { block : 'icon', mods : { service : 'google' } }
         },
         {
             block : 'share',
@@ -163,7 +143,8 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'blogger'
+            text : 'blogger',
+            icon : { block : 'icon', mods : { service : 'blogger' } }
         }
     ]
 })

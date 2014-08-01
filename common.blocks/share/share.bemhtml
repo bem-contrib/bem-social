@@ -2,7 +2,7 @@ block('share')(
     tag()('a'),
     content()(function() {
         var ctx = this.ctx,
-            content = [];
+            content = [ctx.icon];
         ctx.text && content.push({ elem : 'text', content : ctx.text });
         return content;
     }),
