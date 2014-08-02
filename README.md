@@ -10,7 +10,6 @@
 + Vkontakte
 + Facebook
 + Twitter
-+ Odnoklassniki
 + Google+
 + Blogger
 
