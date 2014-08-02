@@ -1,8 +1,8 @@
 /* global modules:false */
 
-modules.define('share', ['i-bem__dom'], function(provide, BEMDOM) {
+modules.define('share', ['i-bem__dom', 'control'], function(provide, BEMDOM, Control) {
 
-provide(BEMDOM.decl(this.name, {
+provide(BEMDOM.decl({ block : this.name, baseBlock : Control }, {
     onSetMod : {
         'js' : {
             'inited' : function() {

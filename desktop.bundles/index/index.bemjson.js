@@ -27,7 +27,7 @@
         },
         {
             tag : 'h2',
-            content : 'Theme Simple'
+            content : 'Theme Simple [Size: m]'
         },
         {
             block : 'share',
@@ -39,7 +39,7 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'vkontakte'
+            text : 'Вконтакте'
         },
         {
             block : 'share',
@@ -51,7 +51,7 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'facebook'
+            text : 'Facebook'
         },
         {
             block : 'share',
@@ -61,7 +61,7 @@
                 title : 'BEM Social Components Library #b_',
                 description : 'Fork me on GitHub'
             },
-            text : 'twitter'
+            text : 'Twitter'
         },
         {
             block : 'share',
@@ -69,7 +69,7 @@
             js : {
                 url : 'http://voischev.github.io/bem-social/'
             },
-            text : 'google+'
+            text : 'Google'
         },
         {
             block : 'share',
@@ -81,11 +81,11 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'blogger'
+            text : 'Blogger'
         },
         {
             tag : 'h2',
-            content : 'Theme Normal'
+            content : 'Theme Normal [Size: m]'
         },
         {
             block : 'share',
@@ -97,7 +97,7 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'vkontakte',
+            text : 'Вконтакте',
             icon : { block : 'icon', mods : { service : 'vkontakte' } }
         },
         {
@@ -110,7 +110,7 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'facebook',
+            text : 'Facebook',
             icon : { block : 'icon', mods : { service : 'facebook' } }
         },
         {
@@ -121,7 +121,7 @@
                 title : 'BEM Social Components Library #b_',
                 description : 'Fork me on GitHub'
             },
-            text : 'twitter',
+            text : 'Twitter',
             icon : { block : 'icon', mods : { service : 'twitter' } }
         },
         {
@@ -130,7 +130,7 @@
             js : {
                 url : 'http://voischev.github.io/bem-social/'
             },
-            text : 'google+',
+            text : 'Google',
             icon : { block : 'icon', mods : { service : 'google' } }
         },
         {
@@ -143,7 +143,7 @@
                 image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
-            text : 'blogger',
+            text : 'Blogger',
             icon : { block : 'icon', mods : { service : 'blogger' } }
         }
     ]
