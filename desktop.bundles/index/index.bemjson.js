@@ -145,6 +145,63 @@
             },
             text : 'Blogger',
             icon : { block : 'icon', mods : { service : 'blogger' } }
+        },
+        {
+            tag : 'br'
+        },
+        {
+            block : 'share',
+            mods : { service : 'vkontakte', theme : 'normal', size : 'm' },
+            js : {
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            },
+            icon : { block : 'icon', mods : { service : 'vkontakte' } }
+        },
+        {
+            block : 'share',
+            mods : { service : 'facebook', theme : 'normal', size : 'm' },
+            js : {
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            },
+            icon : { block : 'icon', mods : { service : 'facebook' } }
+        },
+        {
+            block : 'share',
+            mods : { service : 'twitter', theme : 'normal', size : 'm' },
+            js : {
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library #b_',
+                description : 'Fork me on GitHub'
+            },
+            icon : { block : 'icon', mods : { service : 'twitter' } }
+        },
+        {
+            block : 'share',
+            mods : { service : 'google', theme : 'normal', size : 'm' },
+            js : {
+                url : 'http://voischev.github.io/bem-social/'
+            },
+            icon : { block : 'icon', mods : { service : 'google' } }
+        },
+        {
+            block : 'share',
+            mods : { service : 'blogger', theme : 'normal', size : 'm' },
+            js : {
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            },
+            icon : { block : 'icon', mods : { service : 'blogger' } }
         }
     ]
 })
