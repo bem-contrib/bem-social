@@ -234,17 +234,22 @@
             }
         },
         {
-            block : 'yashare',
-            mods : { theme : 'dark' },
-            params : {
-                services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
-                lang : 'ru',
-                url : 'http://voischev.github.io/bem-social/',
-                title : 'BEM Social Components Library',
-                description : 'Fork me on GitHub',
-                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                        'master/desktop.bundles/index/blocks/page/image/bem.png'
-            }
+            attrs : { style : 'background: #212121' },
+            content : [
+                {
+                    block : 'yashare',
+                    mods : { theme : 'dark' },
+                    params : {
+                        services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
+                        lang : 'ru',
+                        url : 'http://voischev.github.io/bem-social/',
+                        title : 'BEM Social Components Library',
+                        description : 'Fork me on GitHub',
+                        image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                                'master/desktop.bundles/index/blocks/page/image/bem.png'
+                    }
+                }
+            ]
         },
         {
             block : 'yashare',
