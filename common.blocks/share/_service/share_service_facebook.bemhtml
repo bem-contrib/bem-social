@@ -1,6 +1,7 @@
 block('share').mod('service', 'facebook')(
     attrs()(function() {
-        var params = this.ctx.js,
+        var ctx = this.ctx,
+            params = ctx.js,
             uri = 'https://www.facebook.com/sharer.php?s=100';
 
         params.url          && (uri += '&p[url]=' + encodeURIComponent(params.url));
@@ -8,6 +9,6 @@ block('share').mod('service', 'facebook')(
         params.description  && (uri += '&p[summary]=' + encodeURIComponent(params.description));
         params.image        && (uri += '&p[images][0]=' + encodeURIComponent(params.image));
 
-        return this.extend(applyNext(), { href : uri });
+        return this.extend(applyNext(), { href : uri, title : ctx.title || ctx.text || 'Facebook' });
     })
 );

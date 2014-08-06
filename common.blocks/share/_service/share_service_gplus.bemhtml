@@ -1,10 +1,11 @@
 block('share').mod('service', 'gplus')(
     attrs()(function() {
-        var params = this.ctx.js,
+        var ctx = this.ctx,
+            params = ctx.js,
             uri = 'https://plus.google.com/share?';
 
         params.url && (uri += 'url=' + encodeURIComponent(params.url));
 
-        return this.extend(applyNext(), { href : uri });
+        return this.extend(applyNext(), { href : uri, title : ctx.title || ctx.text || 'Google Plus' });
     })
 );
