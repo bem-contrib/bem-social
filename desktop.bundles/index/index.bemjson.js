@@ -235,7 +235,7 @@
         },
         {
             block : 'yashare',
-            mods : { theme : 'black' },
+            mods : { theme : 'dark' },
             params : {
                 services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
                 lang : 'ru',
