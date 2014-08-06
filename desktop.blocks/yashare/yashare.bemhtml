@@ -1,5 +1,6 @@
 block('yashare')(
     match(function() {
+        // TODO: Если есть js параметры, то реализацию блока нужно полностью осуществить js технологии
         return !this.ctx.js;
     }).def()(function() {
         var ctx = this.ctx,
