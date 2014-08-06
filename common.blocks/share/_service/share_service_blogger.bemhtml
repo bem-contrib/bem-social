@@ -8,6 +8,6 @@ block('share').mod('service', 'blogger')(
         params.title        && (uri += '&n=' + encodeURIComponent(params.title));
         params.description  && (uri += '&t=' + encodeURIComponent(params.description));
 
-        return this.extend(applyNext(), { href : uri, title : ctx.title || ctx.text || 'Blogger' });
+        return this.extend(applyNext(), { href : uri, title : ctx.title || 'Blogger' });
     })
 );

@@ -9,6 +9,6 @@ block('share').mod('service', 'facebook')(
         params.description  && (uri += '&p[summary]=' + encodeURIComponent(params.description));
         params.image        && (uri += '&p[images][0]=' + encodeURIComponent(params.image));
 
-        return this.extend(applyNext(), { href : uri, title : ctx.title || ctx.text || 'Facebook' });
+        return this.extend(applyNext(), { href : uri, title : ctx.title || 'Facebook' });
     })
 );

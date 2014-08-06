@@ -8,6 +8,6 @@ block('share').mod('service', 'twitter')(
         params.url          && (uri += '&url=' + encodeURIComponent(params.url));
         params.url          && (uri += '&counturl=' + encodeURIComponent(params.url));
 
-        return this.extend(applyNext(), { href : uri, title : ctx.title || ctx.text || 'Twitter' });
+        return this.extend(applyNext(), { href : uri, title : ctx.title || 'Twitter' });
     })
 );

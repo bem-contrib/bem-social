@@ -6,6 +6,6 @@ block('share').mod('service', 'gplus')(
 
         params.url && (uri += 'url=' + encodeURIComponent(params.url));
 
-        return this.extend(applyNext(), { href : uri, title : ctx.title || ctx.text || 'Google Plus' });
+        return this.extend(applyNext(), { href : uri, title : ctx.title || 'Google Plus' });
     })
 );
