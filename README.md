@@ -13,6 +13,9 @@
 + Google+
 + Blogger
 
+### Service API
++ [Yandex.Share](http://api.yandex.ru/share/)
+
 
 ## В планах
 
