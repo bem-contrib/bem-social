@@ -1,4 +1,4 @@
-block('share').mod('service', 'google')(
+block('share').mod('service', 'gplus')(
     attrs()(function() {
         var params = this.ctx.js,
             uri = 'https://plus.google.com/share?';

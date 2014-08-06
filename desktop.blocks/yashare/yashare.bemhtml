@@ -1,0 +1,32 @@
+block('yashare')(
+    match(function() {
+        return !this.ctx.js;
+    }).def()(function() {
+        var ctx = this.ctx,
+            params = ctx.params,
+            attrs = {};
+
+        params.type = ctx.mods.type;
+        params.theme = ctx.mods.theme;
+
+        attrs['data-yashareType'] = params.type;
+        attrs['data-yashareTheme'] = params.theme;
+        attrs['data-yashareL10n'] = params.lang;
+        attrs['data-yashareQuickServices'] = params.services.join(',');
+        attrs['data-yashareTitle'] = params.title;
+        attrs['data-yashareDescription'] = params.description;
+        attrs['data-yashareLink'] = params.url;
+        attrs['data-yashareImage'] = params.image;
+
+        return applyCtx([
+            {
+                tag : 'script',
+                attrs : { src : '//yandex.st/share/share.js' }
+            },
+            {
+                cls : 'yashare-auto-init',
+                attrs : attrs
+            }
+        ]);
+    })
+);

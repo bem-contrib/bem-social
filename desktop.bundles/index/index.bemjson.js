@@ -65,7 +65,7 @@
         },
         {
             block : 'share',
-            mods : { service : 'google', theme : 'simple', size : 'm' },
+            mods : { service : 'gplus', theme : 'simple', size : 'm' },
             js : {
                 url : 'http://voischev.github.io/bem-social/'
             },
@@ -126,12 +126,12 @@
         },
         {
             block : 'share',
-            mods : { service : 'google', theme : 'normal', size : 'm' },
+            mods : { service : 'gplus', theme : 'normal', size : 'm' },
             js : {
                 url : 'http://voischev.github.io/bem-social/'
             },
             text : 'Google',
-            icon : { block : 'icon', mods : { service : 'google' } }
+            icon : { block : 'icon', mods : { service : 'gplus' } }
         },
         {
             block : 'share',
@@ -185,11 +185,11 @@
         },
         {
             block : 'share',
-            mods : { service : 'google', theme : 'normal', size : 'm' },
+            mods : { service : 'gplus', theme : 'normal', size : 'm' },
             js : {
                 url : 'http://voischev.github.io/bem-social/'
             },
-            icon : { block : 'icon', mods : { service : 'google' } }
+            icon : { block : 'icon', mods : { service : 'gplus' } }
         },
         {
             block : 'share',
@@ -202,6 +202,88 @@
                         'master/desktop.bundles/index/blocks/page/image/bem.png'
             },
             icon : { block : 'icon', mods : { service : 'blogger' } }
+        },
+        {
+            tag : 'h2',
+            content : 'API Yandex.Share'
+        },
+        {
+            block : 'yashare',
+            mods : { theme : 'counter' },
+            params : {
+                services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'gplus'],
+                lang : 'ru',
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            }
+        },
+        {
+            block : 'yashare',
+            mods : { theme : 'default', type : 'button' },
+            params : {
+                services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
+                lang : 'ru',
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            }
+        },
+        {
+            block : 'yashare',
+            mods : { theme : 'black' },
+            params : {
+                services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
+                lang : 'ru',
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            }
+        },
+        {
+            block : 'yashare',
+            mods : { type : 'link' },
+            params : {
+                services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
+                lang : 'ru',
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            }
+        },
+        {
+            block : 'yashare',
+            mods : { type : 'icon' },
+            params : {
+                services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
+                lang : 'ru',
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            }
+        },
+        {
+            block : 'yashare',
+            mods : { type : 'none' },
+            params : {
+                services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
+                lang : 'ru',
+                url : 'http://voischev.github.io/bem-social/',
+                title : 'BEM Social Components Library',
+                description : 'Fork me on GitHub',
+                image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png'
+            }
         }
     ]
 })
