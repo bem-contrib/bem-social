@@ -240,7 +240,7 @@
                     block : 'yashare',
                     mods : { theme : 'dark' },
                     params : {
-                        services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'moimir', 'lj', 'friendfeed', 'gplus'],
+                        services : ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'lj'],
                         lang : 'ru',
                         url : 'http://voischev.github.io/bem-social/',
                         title : 'BEM Social Components Library',
