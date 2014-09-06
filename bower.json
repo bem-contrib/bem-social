@@ -2,7 +2,7 @@
   "name": "bem-social",
   "version": "0.0.1",
   "description": "BEM Social Components Library",
-  "bugs": "",
+  "bugs": "https://github.com/voischev/bem-social/issues",
   "ignore": [
     ".bem/cache",
     "node_modules",

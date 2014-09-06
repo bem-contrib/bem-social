@@ -1,9 +1,12 @@
 # BEM Social Components Library [![Build Status](https://travis-ci.org/voischev/bem-social.svg?branch=master)](https://travis-ci.org/voischev/bem-social)
 
-Социальные виджеты для проектов иcпользующих бэм-стек технологий. 
+Библиотека блоков социальных виджетов для бэм проектов. Share, Like, Follow,
+Yandex.Share API и другие. Содержит SVG иконки социальных сетей, и несколько
+тем оформления. Библиотека использует некоторые блоки [bem-components](http://github.com/bem/bem-components).
+
 [Анотация](http://ru.bem.info/forum/issues/-634/)
 
-## Сейчас есть ([DEMO](http://voischev.github.io/bem-social/))
+## Сейчас есть
 
 ### Share
 
