@@ -19,9 +19,10 @@
 
 ## В планах
 
-+ Share Counter
++ Blocks `*-groups`
 + Like
 + Follow
++ Default Share botton
 + Open Graph для блока page ([bem-core](http://github.com/bem/bem-core))
 + Авторизации
 + Widgets [Comments, News, ...]
