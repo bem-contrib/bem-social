@@ -29,8 +29,8 @@
     "jshint-groups": "0.6.0"
   },
   "scripts": {
-    "lint": "jshint-groups && jscs . && csscomb -vl .",
-    "test": "npm run lint"
+    "test": "npm run build && npm run ${TEST_SCOPE:-test-all}",
+    "lint": "jshint-groups && jscs . && csscomb -vl ."
   },
   "private": true
 }
