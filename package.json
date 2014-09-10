@@ -8,7 +8,9 @@
     "url": "https://github.com/voischev/bem-social"
   },
   "keywords": [
-    "bem"
+    "bem",
+    "social",
+    "blocks"
   ],
   "engines": {
     "node": ">=0.10"
@@ -17,7 +19,7 @@
     "bem-environ": "~1.4.0"
   },
   "devDependencies": {
-    "bem": "0.8.1",
+    "bem": "0.9.0",
     "bem-tools-autoprefixer": "0.0.3",
     "bower": "~1.3.5",
     "bower-npm-install": "~0.5.4",
@@ -29,8 +31,16 @@
     "jshint-groups": "0.6.0"
   },
   "scripts": {
+    "deps": "bower-npm-install",
+    "build": "npm run deps",
+    "lint": "jshint-groups && jscs . && csscomb -vl .",
+    "unit": "npm run test-specs",
+    "gemini": "npm run test-gemini",
     "test": "npm run build && npm run ${TEST_SCOPE:-test-all}",
-    "lint": "jshint-groups && jscs . && csscomb -vl ."
+    "test-all": "npm run lint && npm run unit && npm run test-tmpls && npm run gemini",
+    "test-tmpls": "echo 'запускаем тесты на шаблоны'",
+    "test-specs": "echo 'запускаем unit-тесты на JS'",
+    "test-gemini": "echo 'запускаем тесты gemini'"
   },
   "private": true
 }
