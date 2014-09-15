@@ -39,7 +39,8 @@
             image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png',
             text : 'Fork me on GitHub',
-            id : 'vk_like'
+            id : 'vk_like',
+            pageId : 1
         },
         {
             block : 'vk',
@@ -51,7 +52,8 @@
             image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                         'master/desktop.bundles/index/blocks/page/image/bem.png',
             text : 'Fork me on GitHub',
-            id : 'vk_like_mini'
+            id : 'vk_like_mini',
+            pageId : 2
         },
         {
             tag : 'h2',
