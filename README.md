@@ -19,6 +19,10 @@ Yandex.Share API и другие. Содержит SVG иконки социал
 #### Service API
 + [Yandex.Share](http://api.yandex.ru/share/)
 
+#### Like
+
++ Vkontakte
+
 
 ## В планах
 
