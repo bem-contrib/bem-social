@@ -7,7 +7,8 @@ modules.define(
         onSetMod : {
             js : {
                 inited : function() {
-                    VK.Widgets.Like(this.params.element_id, this.params);
+                    var params = this.params;
+                    VK.Widgets.Like(params.element_id, params, params.page_id || '');
                 }
             }
         }

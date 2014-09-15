@@ -5,7 +5,7 @@ modules.define(
 
     /* global VK */
     loader(cfg.url, function() {
-        VK.init({ apiId : cfg.apiId });
+        VK.init({ apiId : cfg.apiId, onlyWidgets : cfg.onlyWidgets });
         provide(VK);
     });
 });

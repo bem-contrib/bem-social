@@ -30,10 +30,28 @@
             content : 'Like: default'
         },
         {
-           block : 'vk',
-           mods : { widget : 'like' },
-           js : { type : 'button' },
-           id : 'vk_like'
+            block : 'vk',
+            mods : { widget : 'like' },
+            type : 'button',
+            title : 'BEM Social Components Library',
+            description : 'Fork me on GitHub',
+            url : 'http://voischev.github.io/bem-social/',
+            image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png',
+            text : 'Fork me on GitHub',
+            id : 'vk_like'
+        },
+        {
+            block : 'vk',
+            mods : { widget : 'like' },
+            type : 'mini',
+            title : 'BEM Social Components Library',
+            description : 'Fork me on GitHub',
+            url : 'http://voischev.github.io/bem-social/',
+            image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                        'master/desktop.bundles/index/blocks/page/image/bem.png',
+            text : 'Fork me on GitHub',
+            id : 'vk_like_mini'
         },
         {
             tag : 'h2',
