@@ -27,7 +27,17 @@
         },
         {
             tag : 'h2',
-            content : 'Theme Simple [Size: m]'
+            content : 'Like: default'
+        },
+        {
+           block : 'vk',
+           mods : { widget : 'like' },
+           js : { type : 'button' },
+           id : 'vk_like'
+        },
+        {
+            tag : 'h2',
+            content : 'Share: Theme Simple [Size: m]'
         },
         {
             block : 'share',
@@ -85,7 +95,7 @@
         },
         {
             tag : 'h2',
-            content : 'Theme Normal [Size: m]'
+            content : 'Share: Theme Normal [Size: m]'
         },
         {
             block : 'share',

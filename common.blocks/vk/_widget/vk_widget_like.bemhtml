@@ -1,0 +1,8 @@
+block('vk').mod('widget', 'like')(
+    js()(function() {
+        return this.extend(applyNext(), { 'element_id' : this.ctx.id });
+    }),
+    attrs()(function() {
+        return this.extend(applyNext(), { id : this.ctx.id });
+    })
+);
