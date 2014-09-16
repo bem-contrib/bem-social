@@ -31,7 +31,8 @@
         },
         {
             block : 'twitter',
-            mods : { widget : 'share' }
+            mods : { widget : 'share' },
+            count : 'none'
         },
         {
             block : 'twitter',
