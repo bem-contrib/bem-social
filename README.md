@@ -1,4 +1,5 @@
 # BEM Social Components Library [![Build Status](https://travis-ci.org/voischev/bem-social.svg?branch=master)](https://travis-ci.org/voischev/bem-social)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/voischev/bem-social?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/voischev/bem-social?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
