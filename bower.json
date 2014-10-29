@@ -25,6 +25,11 @@
     "dependencies": {
         "bem-components": "git://github.com/bem/bem-components#v2"
     },
+    "devDependencies": {
+        "bem-content": "git://github.com/voischev/bem-content/#33a9bad6a72a2f6b45725e8fdaca26acd21a1ca9",
+        "bem-grid": "git://github.com/voischev/bem-grid/#036e972a0764f447d56aabb62ced18812ae7c4cb",
+        "bem-font" : "git://github.com/voischev/bem-font#657df4a12c689c8bf21576d16218d99f1963c029"
+    },
     "license": "MIT",
     "resolutions": {
         "bem-core": "v2.3.0"
