@@ -33,6 +33,102 @@
                         {
                             block : 'heading',
                             lvl : 3,
+                            content : 'GitHub Buttons'
+                        },
+                        {
+                            block : 'section',
+                            content : [
+                                {
+                                    block : 'row',
+                                    content : [
+                                        {
+                                            elem : 'col',
+                                            elemMods : { sw : 3 },
+                                            content : [
+                                                {
+                                                    block : 'github',
+                                                    mods : { button : 'star', large : true, count : true },
+                                                    user : 'voischev',
+                                                    repo : 'bem-social'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            content : [
+                                                {
+                                                    block : 'github',
+                                                    mods : { button : 'follow', large : true, count : true },
+                                                    user : 'voischev'
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            block : 'section',
+                            content : [
+                                {
+                                    block : 'row',
+                                    content : [
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            content : [
+                                                {
+                                                    block : 'github',
+                                                    mods : { button : 'watch', large : true, count : true },
+                                                    user : 'voischev',
+                                                    repo : 'bem-social'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            content : [
+                                                {
+                                                    block : 'github',
+                                                    mods : { button : 'issue', large : true, count : true },
+                                                    user : 'voischev',
+                                                    repo : 'bem-social'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            content : [
+                                                {
+                                                    block : 'github',
+                                                    mods : { button : 'fork', large : true, count : true },
+                                                    user : 'voischev',
+                                                    repo : 'bem-social'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            content : [
+                                                {
+                                                    block : 'github',
+                                                    mods : { button : 'download', large : true },
+                                                    user : 'voischev',
+                                                    repo : 'bem-social'
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            block : 'heading',
+                            lvl : 3,
                             content : 'Twitter'
                         },
                         {
@@ -48,33 +144,62 @@
                                         '<a href="https://twitter.com/hashtag/b_?src=hash">#b_</a> ',
                                         'с помощью <a href="https://twitter.com/bem_ru">@bem_ru</a></p>',
                                         '&mdash; Ваня Воищев (@voischev) <a href="https://twitter.com/voischev/status/511972758528344064">16 сентября 2014</a>']
-                                },
+                                }
+                            ]
+                        },
+                        {
+                            block : 'section',
+                            content : [
                                 {
-                                    block : 'twitter',
-                                    mods : { widget : 'share' },
-                                    count : 'none'
-                                },
-                                {
-                                    block : 'twitter',
-                                    mods : { widget : 'share' },
-                                    url : 'https://github.com/voischev/bem-social',
-                                    text : 'Социальные кнопки на БЭМ',
-                                    via : 'voischev',
-                                    related : 'bem_ru',
-                                    hashtags : 'bem,b_',
-                                    size : 'large',
-                                    lang : 'ru'
-                                },
-                                {
-                                    block : 'twitter',
-                                    mods : { widget : 'share' },
-                                    url : 'https://github.com/voischev/bem-social',
-                                    text : 'Социальные кнопки на БЭМ',
-                                    via : 'voischev',
-                                    related : 'bem_ru',
-                                    count : 'vertical',
-                                    hashtags : 'bem,b_',
-                                    lang : 'ru'
+                                    block : 'row',
+                                    mods : { svab : true },
+                                    content : [
+                                        {
+                                            elem : 'col',
+                                            elemMods : { sw : 4 },
+                                            content : [
+                                                {
+                                                    block : 'twitter',
+                                                    mods : { widget : 'share' },
+                                                    url : 'https://github.com/voischev/bem-social',
+                                                    text : 'Социальные кнопки на БЭМ',
+                                                    via : 'voischev',
+                                                    related : 'bem_ru',
+                                                    hashtags : 'bem,b_',
+                                                    size : 'large',
+                                                    lang : 'ru'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { sw : 3 },
+                                            content : [
+                                                {
+                                                    block : 'twitter',
+                                                    mods : { widget : 'share' },
+                                                    url : 'https://github.com/voischev/bem-social',
+                                                    text : 'Социальные кнопки на БЭМ',
+                                                    via : 'voischev',
+                                                    related : 'bem_ru',
+                                                    count : 'vertical',
+                                                    hashtags : 'bem,b_',
+                                                    lang : 'ru'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { sw : 3 },
+                                            content : [
+                                                {
+                                                    block : 'twitter',
+                                                    mods : { widget : 'share' },
+                                                    count : 'none'
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -87,30 +212,47 @@
                             block : 'section',
                             content : [
                                 {
-                                    block : 'vk',
-                                    mods : { widget : 'like' },
-                                    type : 'button',
-                                    title : 'BEM Social Components Library',
-                                    description : 'Fork me on GitHub',
-                                    url : 'http://voischev.github.io/bem-social/',
-                                    image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                                                'master/desktop.bundles/index/blocks/page/image/bem.png',
-                                    text : 'Fork me on GitHub',
-                                    id : 'vk_like',
-                                    pageId : 1
-                                },
-                                {
-                                    block : 'vk',
-                                    mods : { widget : 'like' },
-                                    type : 'mini',
-                                    title : 'BEM Social Components Library',
-                                    description : 'Fork me on GitHub',
-                                    url : 'http://voischev.github.io/bem-social/',
-                                    image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                                                'master/desktop.bundles/index/blocks/page/image/bem.png',
-                                    text : 'Fork me on GitHub',
-                                    id : 'vk_like_mini',
-                                    pageId : 2
+                                    block : 'row',
+                                    content : [
+                                        {
+                                            elem : 'col',
+                                            elemMods : { sw : 4 },
+                                            content : [
+                                                {
+                                                    block : 'vk',
+                                                    mods : { widget : 'like' },
+                                                    type : 'button',
+                                                    title : 'BEM Social Components Library',
+                                                    description : 'Fork me on GitHub',
+                                                    url : 'http://voischev.github.io/bem-social/',
+                                                    image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                                                                'master/desktop.bundles/index/blocks/page/image/bem.png',
+                                                    text : 'Fork me on GitHub',
+                                                    id : 'vk_like',
+                                                    pageId : 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { sw : 4 },
+                                            content : [
+                                                {
+                                                    block : 'vk',
+                                                    mods : { widget : 'like' },
+                                                    type : 'mini',
+                                                    title : 'BEM Social Components Library',
+                                                    description : 'Fork me on GitHub',
+                                                    url : 'http://voischev.github.io/bem-social/',
+                                                    image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                                                                'master/desktop.bundles/index/blocks/page/image/bem.png',
+                                                    text : 'Fork me on GitHub',
+                                                    id : 'vk_like_mini',
+                                                    pageId : 2
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         },
