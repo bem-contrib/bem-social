@@ -1,0 +1,18 @@
+block('github').mod('button', 'download')(
+    tag()('a'),
+    cls()('github-button'),
+    attrs()(function() {
+        var mods = this.ctx.mods;
+        var user = this.ctx.user;
+        var repo = this.ctx.repo;
+
+        return this.extend(applyNext(), {
+            href : 'https://github.com/' + user + '/' + repo + '/archive/master.zip',
+            'data-style' : mods.large && 'mega',
+            'data-icon' : 'octicon-cloud-download'
+        });
+    }),
+    content()(function() {
+        return this.ctx.text || 'Download';
+    })
+);

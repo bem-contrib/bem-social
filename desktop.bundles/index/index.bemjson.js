@@ -396,6 +396,18 @@
                     block : 'paragraph',
                     mods : { lead : true },
                     content : [
+                        {
+                            block : 'link',
+                            mods : { theme : 'islands' },
+                            url : 'https://github.com/voischev/bem-social',
+                            content : 'bem-social'
+                        }
+                    ]
+                },
+                {
+                    block : 'paragraph',
+                    mods : { lead : true },
+                    content : [
                         'На этой странице использованы библиотеки: ',
                         {
                             block : 'link',
