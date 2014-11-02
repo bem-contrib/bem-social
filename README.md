@@ -9,7 +9,13 @@ Yandex.Share API и другие. Содержит SVG иконки социал
 
 ## Сейчас есть
 
-### Share
+### Default Buttons
+
++ Twitter
++ Vkontakte
++ GitHub
+
+### Custom Share
 
 + Vkontakte
 + Facebook
@@ -20,22 +26,9 @@ Yandex.Share API и другие. Содержит SVG иконки социал
 #### Service API
 + [Yandex.Share](http://api.yandex.ru/share/)
 
-### Default Share
-
-+ Twitter
-
-### Default Like
-
-+ Vkontakte
-
-
 ## В планах
 
 + Blocks `*-groups`
-+ Like
-+ Follow
-+ Default Share botton
 + Open Graph для блока page ([bem-core](http://github.com/bem/bem-core))
 + Авторизации
 + Widgets [Comments, News, ...]
-+ GitHub и другие.
