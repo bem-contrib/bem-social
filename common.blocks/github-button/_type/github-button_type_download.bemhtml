@@ -1,6 +1,4 @@
-block('github').mod('button', 'download')(
-    tag()('a'),
-    cls()('github-button'),
+block('github-button').mod('type', 'download')(
     attrs()(function() {
         var mods = this.ctx.mods;
         var user = this.ctx.user;

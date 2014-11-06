@@ -1,6 +1,4 @@
-block('github').mod('button', 'follow')(
-    tag()('a'),
-    cls()('github-button'),
+block('github-button').mod('type', 'follow')(
     attrs()(function() {
         var mods = this.ctx.mods;
         var user = this.ctx.user;
