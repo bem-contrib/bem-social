@@ -1,5 +1,3 @@
-/* global modules:false */
-
 modules.require([], function() {
     (function(d, s, id){
         var js,
