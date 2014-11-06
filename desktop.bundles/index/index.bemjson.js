@@ -8,11 +8,10 @@
     ],
     scripts : [{ elem : 'js', url : '_index.js' }],
     content : [
-        {   // tmp block TODO refactor
-            block : 'link',
-            mods : { github : 'ribbon' },
-            url : 'https://github.com/voischev/bem-social',
-            content : 'Fork me on GitHub'
+        {
+            block : 'github-ribbon',
+            mods : { theme : 'darkblue', right : true },
+            url : 'https://github.com/voischev/bem-social'
         },
         {
             block : 'heading',
@@ -119,6 +118,81 @@
                                                     mods : { button : 'download', large : true },
                                                     user : 'voischev',
                                                     repo : 'bem-social'
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            block : 'heading',
+                            lvl : 3,
+                            content : 'GitHub Ribbon'
+                        },
+                        {
+                            block : 'paragraph',
+                            content : [
+                                'Реализованы все темы с ',
+                                {
+                                    block : 'link',
+                                    mods : { theme : 'islands' },
+                                    url : 'https://github.com/blog/273-github-ribbons',
+                                    content : 'этой страницы'
+                                }
+                            ]
+                        },
+                        {
+                            block : 'section',
+                            content : [
+                                {
+                                    block : 'row',
+                                    content : [
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            attrs : { style : 'position:relative;height:150px;' },
+                                            content : [
+                                                {
+                                                    block : 'github-ribbon',
+                                                    mods : { theme : 'red', left : true },
+                                                    url : 'https://github.com/voischev/bem-social'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            attrs : { style : 'position:relative;height:150px;' },
+                                            content : [
+                                                {
+                                                    block : 'github-ribbon',
+                                                    mods : { theme : 'orange', left : true },
+                                                    url : 'https://github.com/voischev/bem-social'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            attrs : { style : 'position:relative;height:150px;' },
+                                            content : [
+                                                {
+                                                    block : 'github-ribbon',
+                                                    mods : { theme : 'green', left : true },
+                                                    url : 'https://github.com/voischev/bem-social'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { s : true },
+                                            attrs : { style : 'position:relative;height:150px;' },
+                                            content : [
+                                                {
+                                                    block : 'github-ribbon',
+                                                    mods : { theme : 'gray', left : true },
+                                                    url : 'https://github.com/voischev/bem-social'
                                                 }
                                             ]
                                         }
