@@ -1,0 +1,10 @@
+block('disqus')(
+    js()(function() {
+        return { shortname : this.ctx.shortname };
+    }),
+    attrs()(function() {
+        return this.extend(applyNext(), {
+            id : 'disqus_thread'
+        });
+    })
+);
