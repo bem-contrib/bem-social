@@ -606,6 +606,10 @@
             ]
         },
         {
+            block : 'disqus',
+            shortname : 'bemsocial'
+        },
+        {
             elem : 'footer',
             content : [
                 {

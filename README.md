@@ -7,30 +7,39 @@
 Yandex.Share API и другие. Содержит SVG иконки социальных сетей, и несколько
 тем оформления. Библиотека использует некоторые блоки [bem-components](http://github.com/bem/bem-components).
 
-[Анотация](http://ru.bem.info/forum/issues/-634/)
+## История изменений 
 
-## Сейчас есть
+### 0.3.0
 
-### Default Buttons
+- Добавился блок коментариев `disqus`
 
-+ Twitter
-+ Vkontakte
-+ GitHub
+### 0.2.0
 
-### Custom Share
+- Переименован блок `github` в `github-button`
+- Добавлен блок `github-ribbon`
 
-+ Vkontakte
-+ Facebook
-+ Twitter
-+ Google+
-+ Blogger
+### 0.1.0
 
-#### Service API
-+ [Yandex.Share](http://api.yandex.ru/share/)
+##### Блоки на основе апи сервисов
+
+- Блок `github` Github Buttons
+- Блок `twitter` кнопки "твитнуть", виджет "твит"
+- Блок `vk` Лайк
+- Блок `yashare` "Поделиться" от Яндекса
+
+##### Кастомизируемые блоки
+
+- Блок `share` поддерживаемые сервисы Blogger, Facebook, Google Plus, Twitter, Вконтакте
+
+##### Темы оформления
+
+- Блок `share` Темы `simple` и `normal`
+
+
 
 ## В планах
 
 + Blocks `*-groups`
 + Open Graph для блока page ([bem-core](http://github.com/bem/bem-core))
 + Авторизации
-+ Widgets [Comments, News, ...]
++ и другие интерфейсные решения использования социальных кнопок
