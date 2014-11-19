@@ -46,7 +46,7 @@
                                             content : [
                                                 {
                                                     block : 'github-button',
-                                                    mods : { type : 'star', large : true, count : true },
+                                                    mods : { type : 'star', size : 'l', count : true },
                                                     user : 'voischev',
                                                     repo : 'bem-social'
                                                 }
@@ -58,7 +58,7 @@
                                             content : [
                                                 {
                                                     block : 'github-button',
-                                                    mods : { type : 'follow', large : true, count : true },
+                                                    mods : { type : 'follow', size : 'l', count : true },
                                                     user : 'voischev'
                                                 }
                                             ]
@@ -79,7 +79,7 @@
                                             content : [
                                                 {
                                                     block : 'github-button',
-                                                    mods : { type : 'watch', large : true, count : true },
+                                                    mods : { type : 'watch', size : 'l', count : true },
                                                     user : 'voischev',
                                                     repo : 'bem-social'
                                                 }
@@ -91,7 +91,7 @@
                                             content : [
                                                 {
                                                     block : 'github-button',
-                                                    mods : { type : 'issue', large : true, count : true },
+                                                    mods : { type : 'issue', size : 'l', count : true },
                                                     user : 'voischev',
                                                     repo : 'bem-social'
                                                 }
@@ -103,7 +103,7 @@
                                             content : [
                                                 {
                                                     block : 'github-button',
-                                                    mods : { type : 'fork', large : true, count : true },
+                                                    mods : { type : 'fork', size : 'l', count : true },
                                                     user : 'voischev',
                                                     repo : 'bem-social'
                                                 }
@@ -115,7 +115,7 @@
                                             content : [
                                                 {
                                                     block : 'github-button',
-                                                    mods : { type : 'download', large : true },
+                                                    mods : { type : 'download', size : 'l' },
                                                     user : 'voischev',
                                                     repo : 'bem-social'
                                                 }

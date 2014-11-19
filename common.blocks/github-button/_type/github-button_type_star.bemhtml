@@ -3,10 +3,11 @@ block('github-button').mod('type', 'star')(
         var mods = this.ctx.mods;
         var user = this.ctx.user;
         var repo = this.ctx.repo;
+        var isLarge = mods.size === 'l';
 
         return this.extend(applyNext(), {
             href : 'https://github.com/' + user + '/' + repo,
-            'data-style' : mods.large && 'mega',
+            'data-style' : isLarge && 'mega',
             'data-count-href' : mods.count && ('/' + user + '/' + repo + '/stargazers'),
             'data-count-api' : mods.count && ('/repos/' + user + '/' + repo + '#stargazers_count'),
             'data-icon' : 'octicon-star'

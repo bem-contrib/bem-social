@@ -3,10 +3,11 @@ block('github-button').mod('type', 'download')(
         var mods = this.ctx.mods;
         var user = this.ctx.user;
         var repo = this.ctx.repo;
+        var isLarge = mods.size === 'l';
 
         return this.extend(applyNext(), {
             href : 'https://github.com/' + user + '/' + repo + '/archive/master.zip',
-            'data-style' : mods.large && 'mega',
+            'data-style' : isLarge && 'mega',
             'data-icon' : 'octicon-cloud-download'
         });
     }),
