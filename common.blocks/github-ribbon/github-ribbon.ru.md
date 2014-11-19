@@ -1,4 +1,4 @@
-#github-ribbon
+# github-ribbon
 
 ## Моды
 
@@ -20,7 +20,7 @@ Ribbon прижат вправо
 Переопределяет моду `image` на одну из тем https://github.com/blog/273-github-ribbons
 Нужен уровень переопределения `bem-social/design/common.blocks`
 
-## Пример
+## Использование
 ```js
 {
     block : 'github-ribbon',
