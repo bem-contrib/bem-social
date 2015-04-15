@@ -1,4 +1,4 @@
-# BEM Social Components Library 
+# BEM Social Components Library
 [![Build Status](https://travis-ci.org/voischev/bem-social.svg?branch=master)](https://travis-ci.org/voischev/bem-social)
 [![Bower version](https://badge.fury.io/bo/bem-social.svg)](http://badge.fury.io/bo/bem-social)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/voischev/bem-social?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -7,7 +7,12 @@
 Yandex.Share API и другие. Содержит SVG иконки социальных сетей, и несколько
 тем оформления. Библиотека использует некоторые блоки [bem-components](http://github.com/bem/bem-components).
 
-## История изменений 
+## История изменений
+
+### 0.3.1
+
+- Теперь для сборки используется `enb`
+- Обновлены зависимости
 
 ### 0.3.0
 
