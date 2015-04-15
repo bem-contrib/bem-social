@@ -3,13 +3,11 @@
 .DS_Store
 .idea
 .svn
-node_modules
+node_modules/
 libs
 npm-debug.log
 
-.bem/cache
-
-*.bundles/*/*
-!*.bundles/.bem/*
-!*.bundles/*/blocks
-!*.bundles/*/*.bemjson.js
+# bem
+.enb/tmp/
+*bundles*/*/*.*
+!*bundles*/*/*.bemjson.js
