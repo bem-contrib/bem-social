@@ -40,8 +40,6 @@ Yandex.Share API и другие. Содержит SVG иконки социал
 
 - Блок `share` Темы `simple` и `normal`
 
-
-
 ## В планах
 
 + Blocks `*-groups`
