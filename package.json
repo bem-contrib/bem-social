@@ -40,7 +40,6 @@
   },
   "scripts": {
     "start": "enb server",
-    "postinstall": "bower-npm-install",
     "deps": "bower-npm-install --non-interactive",
     "lint": "jshint-groups && jscs . && csscomb -vl ."
   },
