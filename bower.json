@@ -4,7 +4,7 @@
   "description": "BEM Social Components Library",
   "repository": {
     "type": "git",
-    "url": "git://github.com/voischev/bem-social"
+    "url": "git://github.com/bem-incubator/bem-social"
   },
   "keywords": [
     "bem",
@@ -13,7 +13,7 @@
     "buttons",
     "widgets"
   ],
-  "bugs": "https://github.com/voischev/bem-social/issues",
+  "bugs": "https://github.com/bem-incubator/bem-social/issues",
   "ignore": [
     ".bem/cache",
     "node_modules",
@@ -25,13 +25,5 @@
   "dependencies": {
     "bem-components": "2.1.0"
   },
-  "devDependencies": {
-    "bem-content": "1.0.0-beta",
-    "bem-grid": "1.2.3",
-    "bem-font": "git://github.com/voischev/bem-font#c86250ac3f4594b6dd2b1dacf5a6df49edecaf81"
-  },
-  "license": "MIT",
-  "resolutions": {
-    "bem-core": "2.6.0"
-  }
+  "license": "MIT"
 }

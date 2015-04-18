@@ -1,7 +1,6 @@
 # BEM Social Components Library
-[![Build Status](https://travis-ci.org/voischev/bem-social.svg?branch=master)](https://travis-ci.org/voischev/bem-social)
+[![Build Status](https://travis-ci.org/bem-incubator/bem-social.svg?branch=master)](https://travis-ci.org/bem-incubator/bem-social)
 [![Bower version](https://badge.fury.io/bo/bem-social.svg)](http://badge.fury.io/bo/bem-social)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/voischev/bem-social?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Библиотека блоков социальных виджетов для бэм проектов. Share, Like, Follow,
 Yandex.Share API и другие. Содержит SVG иконки социальных сетей, и несколько
