@@ -3,7 +3,7 @@
 {
     block : 'share',
     mods : { service : 'vkontakte' },
-    js : {
+    params : {
         url : 'http://factory.mn', // Обязательно
         title : 'Привет мир',
         description : 'Описание',

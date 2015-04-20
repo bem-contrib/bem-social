@@ -1,7 +1,10 @@
 block('share').mod('service', 'blogger')(
+    js()(function() {
+        return this.extend(applyNext(), this.ctx.params);
+    }),
     attrs()(function() {
         var ctx = this.ctx,
-            params = ctx.js,
+            params = ctx.params,
             uri = 'https://www.blogger.com/blog_this.pyra?';
 
         params.url          && (uri += '&u=' + encodeURIComponent(params.url));

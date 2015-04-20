@@ -1,7 +1,10 @@
 block('share').mod('service', 'facebook')(
+    js()(function() {
+        return this.extend(applyNext(), this.ctx.params);
+    }),
     attrs()(function() {
         var ctx = this.ctx,
-            params = ctx.js,
+            params = ctx.params,
             uri = 'https://www.facebook.com/sharer.php?s=100';
 
         params.url          && (uri += '&p[url]=' + encodeURIComponent(params.url));

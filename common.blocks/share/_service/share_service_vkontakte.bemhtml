@@ -1,7 +1,10 @@
 block('share').mod('service', 'vkontakte')(
+    js()(function() {
+        return this.extend(applyNext(), this.ctx.params);
+    }),
     attrs()(function() {
         var ctx = this.ctx,
-            params = ctx.js,
+            params = ctx.params,
             uri = 'http://vkontakte.ru/share.php?';
 
         params.url          && (uri += 'url=' + encodeURIComponent(params.url));

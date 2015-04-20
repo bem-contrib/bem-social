@@ -1,7 +1,10 @@
 block('share').mod('service', 'twitter')(
+    js()(function() {
+        return this.extend(applyNext(), this.ctx.parans);
+    }),
     attrs()(function() {
         var ctx = this.ctx,
-            params = ctx.js,
+            params = ctx.params,
             uri = 'https://twitter.com/share?';
 
         params.title        && (uri += 'text=' + encodeURIComponent(params.title));

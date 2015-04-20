@@ -31,7 +31,7 @@
                 {
                     block : 'share',
                     mods : { service : 'vkontakte', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
@@ -44,7 +44,7 @@
                 {
                     block : 'share',
                     mods : { service : 'facebook', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
@@ -57,7 +57,7 @@
                 {
                     block : 'share',
                     mods : { service : 'twitter', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubaror.github.io/bem-social/',
                         title : 'BEM Social Components Library #b_',
                         description : 'Fork me on GitHub'
@@ -68,7 +68,7 @@
                 {
                     block : 'share',
                     mods : { service : 'gplus', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/'
                     },
                     text : 'Google',
@@ -77,7 +77,7 @@
                 {
                     block : 'share',
                     mods : { service : 'blogger', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
@@ -93,7 +93,7 @@
                 {
                     block : 'share',
                     mods : { service : 'vkontakte', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
@@ -105,7 +105,7 @@
                 {
                     block : 'share',
                     mods : { service : 'facebook', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
@@ -117,7 +117,7 @@
                 {
                     block : 'share',
                     mods : { service : 'twitter', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library #b_',
                         description : 'Fork me on GitHub'
@@ -127,7 +127,7 @@
                 {
                     block : 'share',
                     mods : { service : 'gplus', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/'
                     },
                     icon : { block : 'icon', mods : { service : 'gplus' } }
@@ -135,7 +135,7 @@
                 {
                     block : 'share',
                     mods : { service : 'blogger', theme : 'normal', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
@@ -151,7 +151,7 @@
                 {
                     block : 'share',
                     mods : { service : 'vkontakte', theme : 'simple', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
@@ -163,7 +163,7 @@
                 {
                     block : 'share',
                     mods : { service : 'facebook', theme : 'simple', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
@@ -175,7 +175,7 @@
                 {
                     block : 'share',
                     mods : { service : 'twitter', theme : 'simple', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library #b_',
                         description : 'Fork me on GitHub'
@@ -185,7 +185,7 @@
                 {
                     block : 'share',
                     mods : { service : 'gplus', theme : 'simple', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/'
                     },
                     text : 'Google'
@@ -193,7 +193,7 @@
                 {
                     block : 'share',
                     mods : { service : 'blogger', theme : 'simple', size : 'm' },
-                    js : {
+                    params : {
                         url : 'http://bem-incubator.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
