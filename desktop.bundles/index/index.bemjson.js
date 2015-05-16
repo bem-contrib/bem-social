@@ -2,8 +2,18 @@
     block : 'page',
     title : 'BEM Social Library Page',
     head : [
-        { elem : 'meta', attrs : { name : 'description', content : '' } },
+        { elem : 'meta', attrs : { name : 'description', content : 'Библиотека социальных виджетов' } },
         { elem : 'meta', attrs : { name : 'viewport', content : 'width=1000' } },
+        {
+            block : 'og',
+            title : 'BEM Social',
+            description : 'Библиотека социальных виджетов',
+            type : 'site',
+            keywords : 'bem social widget',
+            url : 'https://github.com/bem-incubator/bem-social',
+            image : ['https://raw.githubusercontent.com/voischev/bem-social/',
+                    'master/desktop.bundles/index/blocks/page/image/bem.png']
+        },
         { elem : 'css', url : '_index.css' }
     ],
     scripts : [{ elem : 'js', url : '_index.js' }],

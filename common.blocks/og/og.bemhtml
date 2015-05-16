@@ -1,0 +1,13 @@
+block('og').def()(function() {
+    var ctx = this.ctx;
+    var og = [];
+
+    ctx.title       && og.push({ block : 'page', elem : 'meta', attrs : { property : 'og:title', content : ctx.title } });
+    ctx.description && og.push({ block : 'page', elem : 'meta', attrs : { property : 'og:description', content : ctx.description } });
+    ctx.type        && og.push({ block : 'page', elem : 'meta', attrs : { property : 'og:type', content : ctx.type } });
+    ctx.keywords    && og.push({ block : 'page', elem : 'meta', attrs : { property : 'og:article:tag', content : ctx.keywords } });
+    ctx.url         && og.push({ block : 'page', elem : 'meta', attrs : { property : 'og:url', content : ctx.url } });
+    ctx.image       && og.push({ block : 'page', elem : 'meta', attrs : { property : 'og:image', content : ctx.image } });
+
+    return applyCtx(og);
+});
