@@ -42,6 +42,7 @@ Yandex.Share API и другие. Содержит SVG иконки социал
 ## В планах
 
 + Blocks `*-groups`
-+ Open Graph для блока page ([bem-core](http://github.com/bem/bem-core))
 + Авторизации
 + и другие интерфейсные решения использования социальных кнопок
+
+### [MIT](http://en.wikipedia.org/wiki/MIT_License) Лицензия
