@@ -107,7 +107,7 @@ module.exports = function(config) {
         platforms.forEach(function(platform) {
             sets.tmplSpecs.configure({
                 destPath : platform + '.tmpl-specs',
-                levels : ['common.blocks', platform + '.blocks'],
+                levels : ['common.blocks', 'design/common.blocks', platform + '.blocks'],
                 sourceLevels : levels,
                 engines : {
                     'bemhtml-dev' : {
