@@ -49,7 +49,7 @@ module.exports = function(config) {
             [techs.cssAutoprefixer, {
                 sourceTarget : '?.noprefix.css',
                 destTarget : '?.css',
-                browserSupport : ['last 2 versions', 'ie 10', 'opera 12.16']
+                browserSupport : ['last 2 versions', 'ie 10', 'opera 12.1']
             }],
 
             // bemtree
@@ -95,4 +95,37 @@ module.exports = function(config) {
 
         nodeConfig.addTargets(['?.html', '_?.css', '_?.js']);
     });
+
+    // tmpl specs
+    config.includeConfig('enb-bem-tmpl-specs');
+
+    configureSets(['desktop'], {
+        tmplSpecs : config.module('enb-bem-tmpl-specs').createConfigurator('tmpl-specs')
+    });
+
+    function configureSets(platforms, sets) {
+        platforms.forEach(function(platform) {
+            sets.tmplSpecs.configure({
+                destPath : platform + '.tmpl-specs',
+                levels : ['common.blocks', platform + '.blocks'],
+                sourceLevels : levels,
+                engines : {
+                    'bemhtml-dev' : {
+                        tech : 'enb-bemxjst/techs/bemhtml-old',
+                        options : {
+                            exportName : 'BEMHTML',
+                            devMode : true
+                        }
+                    },
+                    'bemhtml-prod' : {
+                        tech : 'enb-bemxjst/techs/bemhtml-old',
+                        options : {
+                            exportName : 'BEMHTML',
+                            devMode : false
+                        }
+                    }
+                }
+            });
+        });
+    }
 };
