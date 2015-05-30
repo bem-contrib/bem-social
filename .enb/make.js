@@ -110,6 +110,13 @@ module.exports = function(config) {
                 levels : ['common.blocks', platform + '.blocks'],
                 sourceLevels : levels,
                 engines : {
+                    bh : {
+                        tech : 'enb-bh/techs/bh-server',
+                        options : {
+                            jsAttrName : 'data-bem',
+                            jsAttrScheme : 'json'
+                        }
+                    },
                     'bemhtml-dev' : {
                         tech : 'enb-bemxjst/techs/bemhtml-old',
                         options : {
