@@ -5,9 +5,6 @@ block('twitter').mod('widget', 'tweet')(
         return this.extend(applyNext(), {
             'lang' : this.ctx.lang || 'ru'
         });
-    }),
-    content()(function() {
-        return this.ctx.content;
     })
 );
 

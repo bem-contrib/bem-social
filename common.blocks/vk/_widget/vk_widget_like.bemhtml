@@ -4,7 +4,7 @@ block('vk').mod('widget', 'like')(
         return this.extend(
             applyNext(),
             {
-                element_id : this.ctx.id,
+                element_id : ctx.id,
                 type : ctx.type,
                 pageTitle : ctx.title,
                 pageDescription : ctx.description,

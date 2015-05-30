@@ -1,0 +1,4 @@
+({
+    block : 'disqus',
+    shortname : 'foo'
+})
