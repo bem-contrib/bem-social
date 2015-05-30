@@ -43,6 +43,7 @@
     "start": "magic server",
     "deps": "bower install --non-interactive",
     "lint": "jshint-groups && jscs . && csscomb -vl .",
+    "tmpl-specs": "magic run tmpl-specs",
     "compiled": "find . -iname '*.styl' | xargs stylus"
   },
   "private": true
