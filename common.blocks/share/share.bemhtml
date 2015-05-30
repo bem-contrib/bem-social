@@ -3,7 +3,7 @@ block('share')(
     content()(function() {
         var ctx = this.ctx,
             content = [ctx.icon];
-        ctx.text && content.push({ elem : 'text', content : ctx.text });
+        (!ctx.icon && ctx.text !== false) && content.push({ elem : 'text', content : ctx.text || 'Share' });
         return content;
     }),
     elem('text').tag()('span')
