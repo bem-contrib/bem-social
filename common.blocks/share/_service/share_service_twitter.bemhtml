@@ -1,6 +1,6 @@
 block('share').mod('service', 'twitter')(
     js()(function() {
-        return this.extend(applyNext(), this.ctx.parans);
+        return this.extend(applyNext(), this.ctx.params);
     }),
     attrs()(function() {
         var ctx = this.ctx,
