@@ -6,6 +6,23 @@
 Yandex.Share API и другие. Содержит SVG иконки социальных сетей, и несколько
 тем оформления. Библиотека использует некоторые блоки [bem-components](http://github.com/bem/bem-components).
 
+## Установка
+
+Установка похожа на установку `bem-core` и `bem-components` библиотек. Используйте `bower install` для 
+установки `bem-social` для установки из GitHub или из Bower.
+
+Нужно добавить нужные уровни в ваш `make.js` файл.
+
+```
+[
+    'libs/bem-social/common.blocks',
+    'libs/bem-social/desktop.blocks',
+    'libs/bem-social/design/common.blocks'
+]
+```
+
+Добавьте нужные блоки на ваши страницы. Примеры можно посмотреть в папках с блоками.
+
 ## История изменений
 
 ### 0.3.1
