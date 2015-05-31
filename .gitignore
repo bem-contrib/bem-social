@@ -12,3 +12,4 @@ npm-debug.log
 *bundles*/*/*.*
 !*bundles*/*/*.bemjson.js
 *.tmpl-specs/**
+*.examples/**

@@ -97,14 +97,21 @@ module.exports = function(config) {
     });
 
     // tmpl specs
+    config.includeConfig('enb-bem-examples');
     config.includeConfig('enb-bem-tmpl-specs');
 
     configureSets(['desktop'], {
+        examples : config.module('enb-bem-examples').createConfigurator('examples'),
         tmplSpecs : config.module('enb-bem-tmpl-specs').createConfigurator('tmpl-specs')
     });
 
     function configureSets(platforms, sets) {
         platforms.forEach(function(platform) {
+            sets.examples.configure({
+                destPath : platform + '.examples',
+                levels : ['common.blocks', 'design/common.blocks', platform + '.blocks']
+            });
+
             sets.tmplSpecs.configure({
                 destPath : platform + '.tmpl-specs',
                 levels : ['common.blocks', platform + '.blocks'],
