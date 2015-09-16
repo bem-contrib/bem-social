@@ -23,7 +23,7 @@
     "Ivan Voischev <voischev.ivan@ya.ru>"
   ],
   "dependencies": {
-    "bem-components": "2.1.0"
+    "bem-components": "2.3.0"
   },
   "license": "MIT"
 }
