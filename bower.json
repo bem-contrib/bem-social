@@ -20,6 +20,7 @@
     "libs"
   ],
   "authors": [
+    "Mitya Teryaew <mitya.teryaew@gmail.com>",
     "Ivan Voischev <voischev.ivan@ya.ru>"
   ],
   "dependencies": {
