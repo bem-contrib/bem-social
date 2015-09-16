@@ -7,16 +7,15 @@ var techs = {
         borschik : require('enb-borschik/techs/borschik'),
 
         // css
-        cssStylus : require('enb-stylus/techs/css-stylus'),
-        cssAutoprefixer : require('enb-autoprefixer/techs/css-autoprefixer'),
+        stylus : require('enb-stylus/techs/stylus'),
 
         // js
         browserJs : require('enb-diverse-js/techs/browser-js'),
         prependYm : require('enb-modules/techs/prepend-modules'),
 
         // bemhtml
-        bemhtml : require('enb-bemxjst/techs/bemhtml-old'),
-        htmlFromBemjson : require('enb-bemxjst/techs/html-from-bemjson')
+        bemhtml : require('enb-bemxjst/techs/bemhtml'),
+        bemjsonToHtml : require('enb-bemxjst/techs/bemjson-to-html')
     },
     enbBemTechs = require('enb-bem-techs'),
     levels = [
@@ -45,19 +44,18 @@ module.exports = function(config) {
             [enbBemTechs.files],
 
             // css
-            [techs.cssStylus, { target : '?.noprefix.css' }],
-            [techs.cssAutoprefixer, {
-                sourceTarget : '?.noprefix.css',
-                destTarget : '?.css',
-                browserSupport : ['last 2 versions', 'ie 10', 'opera 12.1']
-            }],
+            [techs.stylus, {
+                autoprefixer : {
+                    browser : ['last 2 versions', 'ie >= 10', 'opera 12.1']
+                }
+             }],
 
             // bemtree
             // [techs.bemtree, { devMode: process.env.BEMTREE_ENV === 'development' }],
 
             // bemhtml
             [techs.bemhtml, { devMode : process.env.BEMHTML_ENV === 'development' }],
-            [techs.htmlFromBemjson],
+            [techs.bemjsonToHtml],
 
             // client bemhtml
             [enbBemTechs.depsByTechToBemdecl, {
@@ -118,14 +116,14 @@ module.exports = function(config) {
                         }
                     },
                     'bemhtml-dev' : {
-                        tech : 'enb-bemxjst/techs/bemhtml-old',
+                        tech : 'enb-bemxjst/techs/bemhtml',
                         options : {
                             exportName : 'BEMHTML',
                             devMode : true
                         }
                     },
                     'bemhtml-prod' : {
-                        tech : 'enb-bemxjst/techs/bemhtml-old',
+                        tech : 'enb-bemxjst/techs/bemhtml',
                         options : {
                             exportName : 'BEMHTML',
                             devMode : false
