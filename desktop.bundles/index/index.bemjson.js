@@ -432,7 +432,31 @@
                                     'master/desktop.bundles/index/blocks/page/image/bem.png'
                         }
                     ]
-                }
+                },
+                {
+                    tag : 'br'
+                },
+                {
+                    tag : 'h3',
+                    content : 'API Yandex.Share2'
+                },
+                {
+                    block : 'ya-share2',
+                    services : [
+                        'vkontakte',
+                        'facebook',
+                        'twitter',
+                        'odnoklassniki',
+                        'moimir',
+                        'gplus'
+                    ],
+                    url : 'http://bem-incubator.github.io/bem-social/',
+                    title : 'BEM Social Components Library',
+                    description : 'Fork me on GitHub',
+                    image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
+                            'master/desktop.bundles/index/blocks/page/image/bem.png'
+                },
+
             ]
         },
         {
