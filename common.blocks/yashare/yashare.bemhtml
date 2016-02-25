@@ -1,12 +1,20 @@
 block('yashare')(
     js()(true),
-    cls()('yashare-auto-init'),
+    cls()('ya-share2'),
     attrs()(function() {
-        var ctx = this.ctx;
-        return {
-            'data-yashareQuickServices' : (ctx.quickServices || []).join(','),
-            'data-yashareTheme' : ctx.theme || 'counter',
-            'data-yashareL10n' : ctx.l10n || 'ru'
-        };
-    })
+         var ctx = this.ctx,
+             attrs = {
+                 'data-services' : (ctx.services || ctx.quickServices || []).join(','),
+                 'data-counter' : ctx.counter,
+                 'data-copy' : ctx.copy,
+                 'data-description' : ctx.description,
+                 'data-image' : ctx.image,
+                 'data-lang' : ctx.lang,
+                 'data-limit' : ctx.limit,
+                 'data-size' : ctx.size,
+                 'data-title' : ctx.title,
+                 'data-url' : ctx.url
+             };
+         return attrs;
+     })
 );

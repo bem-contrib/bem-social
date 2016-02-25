@@ -6,7 +6,7 @@ modules.define(
         onSetMod : {
             js : {
                 inited : function() {
-                    Loader('//yandex.st/share/share.js');
+                    Loader('https://yastatic.net/share2/share.js');
                 }
             }
         }

@@ -378,13 +378,12 @@
                         'moimir',
                         'gplus'
                     ],
-                    theme : 'counter',
-                    l10n : 'ru',
                     url : 'http://bem-incubator.github.io/bem-social/',
                     title : 'BEM Social Components Library',
                     description : 'Fork me on GitHub',
                     image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                            'master/desktop.bundles/index/blocks/page/image/bem.png'
+                            'master/desktop.bundles/index/blocks/page/image/bem.png',
+                    counter : true
                 },
                 {
                     tag : 'br'
@@ -401,62 +400,34 @@
                         'friendfeed',
                         'gplus'
                     ],
-                    theme : 'default',
-                    l10n : 'ru',
                     url : 'http://bem-incubator.github.io/bem-social/',
                     title : 'BEM Social Components Library',
                     description : 'Fork me on GitHub',
                     image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                            'master/desktop.bundles/index/blocks/page/image/bem.png'
+                            'master/desktop.bundles/index/blocks/page/image/bem.png',
+                    limit : 4,
+                    copy : 'last'
+
                 },
                 {
                     tag : 'br'
                 },
                 {
-                    attrs : { style : 'background: #212121' },
-                    content : [
-                        {
-                            block : 'yashare',
-                            quickServices : [
-                                'vkontakte',
-                                'facebook',
-                                'twitter',
-                                'odnoklassniki',
-                                'lj'
-                            ],
-                            theme : 'dark',
-                            url : 'http://bem-incubator.github.io/bem-social/',
-                            title : 'BEM Social Components Library',
-                            description : 'Fork me on GitHub',
-                            image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                                    'master/desktop.bundles/index/blocks/page/image/bem.png'
-                        }
-                    ]
-                },
-                {
-                    tag : 'br'
-                },
-                {
-                    tag : 'h3',
-                    content : 'API Yandex.Share2'
-                },
-                {
-                    block : 'ya-share2',
-                    services : [
+                    block : 'yashare',
+                    quickServices : [
                         'vkontakte',
                         'facebook',
                         'twitter',
                         'odnoklassniki',
-                        'moimir',
-                        'gplus'
+                        'lj'
                     ],
                     url : 'http://bem-incubator.github.io/bem-social/',
                     title : 'BEM Social Components Library',
                     description : 'Fork me on GitHub',
                     image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
-                            'master/desktop.bundles/index/blocks/page/image/bem.png'
-                },
-
+                            'master/desktop.bundles/index/blocks/page/image/bem.png',
+                    size : 's'
+                }
             ]
         },
         {
