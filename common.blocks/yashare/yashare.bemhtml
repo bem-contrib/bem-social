@@ -2,19 +2,20 @@ block('yashare')(
     js()(true),
     cls()('ya-share2'),
     attrs()(function() {
-         var ctx = this.ctx,
-             attrs = {
-                 'data-services' : (ctx.services || ctx.quickServices || []).join(','),
-                 'data-counter' : ctx.counter,
-                 'data-copy' : ctx.copy,
-                 'data-description' : ctx.description,
-                 'data-image' : ctx.image,
-                 'data-lang' : ctx.lang,
-                 'data-limit' : ctx.limit,
-                 'data-size' : ctx.size,
-                 'data-title' : ctx.title,
-                 'data-url' : ctx.url
-             };
-         return attrs;
+        var ctx = this.ctx,
+        attrs = {
+            'data-bare' : ctx.bare,
+            'data-counter' : ctx.counter,
+            'data-copy' : ctx.copy,
+            'data-description' : ctx.description,
+            'data-image' : ctx.image,
+            'data-lang' : ctx.lang,
+            'data-limit' : ctx.limit,
+            'data-services' : (ctx.services || []).join(','),
+            'data-size' : ctx.size,
+            'data-title' : ctx.title,
+            'data-url' : ctx.url,
+        };
+        return attrs;
      })
 );
