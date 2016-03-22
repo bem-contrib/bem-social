@@ -1,10 +1,10 @@
 {
   "name": "bem-social",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "BEM Social Components Library",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bem-incubator/bem-social"
+    "url": "git://github.com/bem-contrib/bem-social"
   },
   "keywords": [
     "bem",
@@ -24,7 +24,7 @@
     "Ivan Voischev <voischev.ivan@ya.ru>"
   ],
   "dependencies": {
-    "bem-components": "2.3.0"
+    "bem-components": "^2.3.0"
   },
   "license": "MIT"
 }
