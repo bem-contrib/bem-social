@@ -9,7 +9,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
 
     YENV=production enb make -n
 
-    git clone -b gh-pages https://${GH_TOKEN}@github.com/bem-incubator/bem-social.git gh-pages
+    git clone -b gh-pages https://${GH_TOKEN}@github.com/bem-contrib/bem-social.git gh-pages
 
     cd gh-pages
 

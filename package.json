@@ -4,7 +4,7 @@
   "description": "BEM Social Components Library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bem-incubator/bem-social"
+    "url": "https://github.com/bem-contrib/bem-social"
   },
   "keywords": [
     "bem",
