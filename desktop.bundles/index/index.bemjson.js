@@ -10,7 +10,7 @@
             description : 'Библиотека социальных виджетов',
             type : 'site',
             keywords : 'bem social widget',
-            url : 'https://github.com/bem-incubator/bem-social',
+            url : 'https://github.com/bem-contrib/bem-social',
             image : ['https://raw.githubusercontent.com/voischev/bem-social/',
                     'master/desktop.bundles/index/blocks/page/image/bem.png']
         },
@@ -21,7 +21,7 @@
         {
             block : 'github-ribbon',
             mods : { theme : 'darkblue', right : true },
-            url : 'https://github.com/bem-incubator/bem-social'
+            url : 'https://github.com/bem-contrib/bem-social'
         },
         {
             tag : 'h1',
@@ -42,7 +42,7 @@
                     block : 'share',
                     mods : { service : 'vkontakte', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -55,7 +55,7 @@
                     block : 'share',
                     mods : { service : 'facebook', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -79,7 +79,7 @@
                     block : 'share',
                     mods : { service : 'gplus', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/'
+                        url : 'http://bem-contrib.github.io/bem-social/'
                     },
                     text : 'Google',
                     icon : { block : 'icon', mods : { service : 'gplus' } }
@@ -88,7 +88,7 @@
                     block : 'share',
                     mods : { service : 'blogger', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -104,7 +104,7 @@
                     block : 'share',
                     mods : { service : 'vkontakte', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -116,7 +116,7 @@
                     block : 'share',
                     mods : { service : 'facebook', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -128,7 +128,7 @@
                     block : 'share',
                     mods : { service : 'twitter', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library #b_',
                         description : 'Fork me on GitHub'
                     },
@@ -138,7 +138,7 @@
                     block : 'share',
                     mods : { service : 'gplus', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/'
+                        url : 'http://bem-contrib.github.io/bem-social/'
                     },
                     icon : { block : 'icon', mods : { service : 'gplus' } }
                 },
@@ -146,7 +146,7 @@
                     block : 'share',
                     mods : { service : 'blogger', theme : 'normal', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -162,7 +162,7 @@
                     block : 'share',
                     mods : { service : 'vkontakte', theme : 'simple', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -174,7 +174,7 @@
                     block : 'share',
                     mods : { service : 'facebook', theme : 'simple', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -186,7 +186,7 @@
                     block : 'share',
                     mods : { service : 'twitter', theme : 'simple', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library #b_',
                         description : 'Fork me on GitHub'
                     },
@@ -196,7 +196,7 @@
                     block : 'share',
                     mods : { service : 'gplus', theme : 'simple', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/'
+                        url : 'http://bem-contrib.github.io/bem-social/'
                     },
                     text : 'Google'
                 },
@@ -204,7 +204,7 @@
                     block : 'share',
                     mods : { service : 'blogger', theme : 'simple', size : 'm' },
                     params : {
-                        url : 'http://bem-incubator.github.io/bem-social/',
+                        url : 'http://bem-contrib.github.io/bem-social/',
                         title : 'BEM Social Components Library',
                         description : 'Fork me on GitHub',
                         image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -273,22 +273,22 @@
                         {
                             block : 'github-ribbon',
                             mods : { theme : 'red', left : true },
-                            url : 'https://github.com/bem-incubator/bem-social'
+                            url : 'https://github.com/bem-contrib/bem-social'
                         },
                         {
                             block : 'github-ribbon',
                             mods : { theme : 'orange', left : true },
-                            url : 'https://github.com/bem-incubator/bem-social'
+                            url : 'https://github.com/bem-contrib/bem-social'
                         },
                         {
                             block : 'github-ribbon',
                             mods : { theme : 'green', left : true },
-                            url : 'https://github.com/bem-incubator/bem-social'
+                            url : 'https://github.com/bem-contrib/bem-social'
                         },
                         {
                             block : 'github-ribbon',
                             mods : { theme : 'gray', left : true },
-                            url : 'https://github.com/bem-incubator/bem-social'
+                            url : 'https://github.com/bem-contrib/bem-social'
                         }
                     ]
                 },
@@ -310,7 +310,7 @@
                 {
                     block : 'twitter',
                     mods : { widget : 'share' },
-                    url : 'https://github.com/bem-incubator/bem-social',
+                    url : 'https://github.com/bem-contrib/bem-social',
                     text : 'Социальные кнопки на БЭМ',
                     via : 'voischev',
                     related : 'bem_ru',
@@ -321,7 +321,7 @@
                 {
                     block : 'twitter',
                     mods : { widget : 'share' },
-                    url : 'https://github.com/bem-incubator/bem-social',
+                    url : 'https://github.com/bem-contrib/bem-social',
                     text : 'Социальные кнопки на БЭМ',
                     via : 'voischev',
                     related : 'bem_ru',
@@ -344,7 +344,7 @@
                     type : 'button',
                     title : 'BEM Social Components Library',
                     description : 'Fork me on GitHub',
-                    url : 'http://bem-incubator.github.io/bem-social/',
+                    url : 'http://bem-contrib.github.io/bem-social/',
                     image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                                 'master/desktop.bundles/index/blocks/page/image/bem.png',
                     text : 'Fork me on GitHub',
@@ -357,7 +357,7 @@
                     type : 'mini',
                     title : 'BEM Social Components Library',
                     description : 'Fork me on GitHub',
-                    url : 'http://bem-incubator.github.io/bem-social/',
+                    url : 'http://bem-contrib.github.io/bem-social/',
                     image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
                                 'master/desktop.bundles/index/blocks/page/image/bem.png',
                     text : 'Fork me on GitHub',
@@ -380,7 +380,7 @@
                     ],
                     theme : 'counter',
                     l10n : 'ru',
-                    url : 'http://bem-incubator.github.io/bem-social/',
+                    url : 'http://bem-contrib.github.io/bem-social/',
                     title : 'BEM Social Components Library',
                     description : 'Fork me on GitHub',
                     image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -403,7 +403,7 @@
                     ],
                     theme : 'default',
                     l10n : 'ru',
-                    url : 'http://bem-incubator.github.io/bem-social/',
+                    url : 'http://bem-contrib.github.io/bem-social/',
                     title : 'BEM Social Components Library',
                     description : 'Fork me on GitHub',
                     image : 'https://raw.githubusercontent.com/voischev/bem-social/' +
@@ -425,7 +425,7 @@
                                 'lj'
                             ],
                             theme : 'dark',
-                            url : 'http://bem-incubator.github.io/bem-social/',
+                            url : 'http://bem-contrib.github.io/bem-social/',
                             title : 'BEM Social Components Library',
                             description : 'Fork me on GitHub',
                             image : 'https://raw.githubusercontent.com/voischev/bem-social/' +

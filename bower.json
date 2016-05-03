@@ -4,7 +4,7 @@
   "description": "BEM Social Components Library",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bem-incubator/bem-social"
+    "url": "git://github.com/bem-contrib/bem-social"
   },
   "keywords": [
     "bem",
@@ -13,7 +13,7 @@
     "buttons",
     "widgets"
   ],
-  "bugs": "https://github.com/bem-incubator/bem-social/issues",
+  "bugs": "https://github.com/bem-contrib/bem-social/issues",
   "ignore": [
     ".bem/cache",
     "node_modules",
